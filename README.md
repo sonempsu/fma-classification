@@ -1,3 +1,3 @@
 # FMA progject
-## part 1
+## FMA data path: `C:\Users\user\Desktop\data`
 ## part 2
