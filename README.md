@@ -6,6 +6,8 @@
 pyenv shell 3.13.1
 python -m venv env
 .\env\Scripts\Activate
+
+source env/bin/activate # for linux
 ## install dependencies
 pip install -r requirements.txt
 ## Environment Setup
