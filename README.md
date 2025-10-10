@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ## Environment Setup
 source env/bin/activate
 ## Testing
-python run_test.py
+python test_gpu.py
 
