@@ -3,11 +3,23 @@
 ## How to set up windows environment:
 ## Setup (windows)
 ## use pyenv to install python 3.13.1(tcl dependency issue with 3.13.0)
-pyenv shell 3.13.0
+```
+pyenv install 3.13.1
+pyenv shell 3.13.1
 python -m venv env
-.\env\Scripts\Activate
+```
 
-source env/bin/activate # for linux
+WINDOWS:
+```
+.\env\Scripts\Activate
+```
+
+
+LINUX:
+```
+source env/bin/activate 
+```
+
 ## install dependencies
 pip install -r requirements.txt
 ## Environment Setup
